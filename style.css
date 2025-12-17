@@ -1,0 +1,59 @@
+/* wp-img-auto-sizes-contain-inline-css */
+img:is([sizes=auto i],[sizes^="auto," i]) {
+	contain-intrinsic-size: 3000px 1500px;
+}
+
+/* wp-emoji-styles-inline-css */
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/* wp-block-library-inline-css */
+:root {
+	--wp-block-synced-color: #7a00df;
+	--wp-editor-canvas-background: #ddd;
+}
+
+.wp-element-button {
+	cursor: pointer;
+}
+
+/* global-styles-inline-css */
+head{
+  font-family: "Khmer", sans-serif, serif, "Noto Sans Khmer", "Khmer OS Battambang", "Khmer OS Siemreap";
+}
+
+body {
+  
+	background: var(--global-palette8);
+	font-family: "mptc-digital", helvetica, arial, sans-serif, "Khmer OS Battambang", "Noto Sans Khmer", serif;
+	font-size: 17px;
+	line-height: 1.6;
+	color: #3B3B3B;
+}
+
+/* kadence-global-inline-css */
+:root {
+	--global-palette1: #004282;
+	--global-palette2: #f58220;
+	--global-content-width: 1290px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 600;
+}
+:root {
+  --khmer-font: "Noto Sans Khmer", "Khmer OS Battambang", "Khmer OS Siemreap", sans-serif;
+}
+
+/* CONTINUE PASTING ALL CSS HERE */
